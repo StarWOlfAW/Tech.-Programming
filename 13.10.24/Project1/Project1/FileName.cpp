@@ -2,7 +2,7 @@
 #include <vector>
 
 int main() {
-    long long number;
+    int number;
     using namespace std;
     cout << "Enter numbers: ";
     cin >> number;
