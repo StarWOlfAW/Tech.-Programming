@@ -1,33 +1,23 @@
 #include <iostream>
-#include <vector>
-
-int main() {
-    int number;
-    using namespace std;
-    cout << "Enter numbers: ";
-    cin >> number;
-
-    int minDigit = 9, maxDigit = 0;
-    vector<int> digits;
-
-   
-    while (number > 0) {
-        int digit = number % 10;
-        digits.push_back(digit);
-        if (digit < minDigit) minDigit = digit;
-        if (digit > maxDigit) maxDigit = digit;
-        number /= 10;
-    }
-
-   
-    c
-    for (int i = digits.size() - 1; i >= 0; --i) { 
-        if (digits[i] > minDigit && digits[i] < maxDigit) {
-            cout << digits[i];
-        }
-    }
-
-    std::cout << std::endl;
-
-    return 0;
+using namespace std;
+int main()
+{
+	int max = 0, s1 = 0, s2 = 1, i, a, k;
+	for (i = 1; i < 12212; i++)
+	{
+		a = i;
+		s1 = 0; s2 = 1;
+		while (a)
+		{
+			k = a % 10;
+			s1 = s1 + k;
+			s2 = s2 * k;
+			a = a / 10;
+		}
+		if ((s1 == s2) and (max < i))
+			max = i;
+	}
+	cout << "Maximum is " << max << " ";
+	system("pause");
+	return 0;
 }
