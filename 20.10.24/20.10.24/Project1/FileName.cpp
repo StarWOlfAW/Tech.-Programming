@@ -10,10 +10,10 @@ int main()
     cout << "Enter e "; cin >> E;
 
     //1
-    s = 0; chisl = 1; znam = 1; znak = 1; k = 2;
+    s = 1; chisl = 7; znam = 1; znak = -1; k = 1;
     for (int i = 1; i <= N; i++)
     {
-        sl = znak * chisl / znam;
+        sl = znak * (chisl / znam);
         s = s + sl;
         chisl = chisl * x;
         znam = znam * k;
@@ -23,10 +23,10 @@ int main()
     cout << "S1=" << s << " n=" << N << endl;
 
     //2
-    s = 0; chisl = 1; znam = 1; znak = 1; k = 2;
+    s = 1; chisl = 7; znam = 1; znak = -1; k = 1;
     for (int i = 1; i <= N; i++)
     {
-        sl = znak * chisl / znam;
+        sl = znak * (chisl / znam);
         s = s + sl;
         chisl = chisl * x;
         znam = znam * k;
@@ -36,10 +36,10 @@ int main()
     cout << "S2=" << s << " n=" << N << endl;
 
     //3
-    s = 0; chisl = 1; znam = 1; znak = 1; k = 2;
+    s = 1; chisl = 7; znam = 1; znak = -1; k = 1;
     for (int i = 1; i <= N; i++)
     {
-        sl = znak * chisl / znam;
+        sl = znak * (chisl / znam);
         s = s + sl;
         chisl = chisl * x;
         znam = znam * k;
@@ -47,7 +47,7 @@ int main()
         k = k + 1;
     }
     cout << "S3=" << s << " n=" << N << endl;
-    cout << "Tochoe znachenie \n sin(x)/x=" << pow(2.71828 , -x) << endl;
+    cout << "Tochoe znachenie \n sin(x)/x=" << pow(2.71828,(7 * x * -1)) << endl;
     system("pause");
     return 0;
 }
