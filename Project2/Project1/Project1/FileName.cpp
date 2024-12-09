@@ -183,6 +183,15 @@ int twoofcoldest(int* a, int n)
 	}
 	return first, second;
 }
+void left(int* a, int n)
+{
+	int first = a[0];
+	for (int i = 0; i < n-1; i++)
+	{
+		a[i] = a[i+1];
+	}
+	a[n - 1] = first;
+}
 void output_mass(int* a, int n)
 {
 	for (int i = 0; i < n; i++)
