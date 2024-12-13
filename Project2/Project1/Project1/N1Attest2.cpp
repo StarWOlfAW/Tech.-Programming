@@ -2,14 +2,15 @@
 #include <ctime>;
 using namespace std;
 int average(int* a, int n); int abovezero(int* a, int n); int abovezero2(int* a, int n); int coldest(int* a, int n); int hottest(int* a, int n); void output_mass(int* a, int n); void inp_mass2(int* a, int n); int coldest(int* a, int n);int daysaverage(int* a, int n);
-int closesttoaverage(int* a, int n); int coldestsecond(int* a, int n); int coldestafter(int* a, int n); int swap(int* a, int n); int averagebefore(int* a, int n); int twoofcoldest(int* a, int n);
+int closesttoaverage(int* a, int n); int coldestsecond(int* a, int n); int coldestafter(int* a, int n); int swap(int* a, int n);
+int averagebefore(int* a, int n); int twoofcoldest(int* a, int n);void left(int* a, int n);int changesign(int* a, int n); 
 int main()
 {
 	srand(time(0));
 	const int n = 31;
 	int* a = new int[n], i = 0;
 	inp_mass2(a, n);
-	//output_mass(a, n);
+	output_mass(a, n);
 	//process(a, n);
 	cout << " >>> " << average(a, n) << " >1 " << abovezero(a, n) << " >2 " << abovezero2(a, n) << " >3 " << coldest(a, n) << " >4 " <<daysaverage(a,n) << " >5 " << closesttoaverage(a, n);
 	//void inp_mass2(int* a, int n);
@@ -191,6 +192,28 @@ void left(int* a, int n)
 		a[i] = a[i+1];
 	}
 	a[n - 1] = first;
+}
+int changesign(int* a, int n)
+{
+	int change = 0;
+	for (int i = 0; i < n-1; i++)
+	{
+		if (a[i] >= 0)
+		{
+			if (a[i + 1] < 0)
+			{
+				change++;
+			}
+		}
+		if (a[i] < 0)
+		{
+			if (a[i + 1] >= 0)
+			{
+				change++;
+			}
+		}
+	}
+	return change;
 }
 void output_mass(int* a, int n)
 {
