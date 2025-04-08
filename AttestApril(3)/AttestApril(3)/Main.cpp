@@ -24,7 +24,7 @@ int main()
     float** c3 = create_matrix(n);  // c*C
 
     float** c4 = create_matrix(n);  // A + B + C
-    float** c5 = create_matrix(n);  // (A+B+C)^2 („|„u„r„p„‘ „‰„p„ƒ„„„)
+    float** c5 = create_matrix(n);  // (A+B+C)^2 (Left side)
 
     float** c6 = create_matrix(n);  // A^2
     float** c7 = create_matrix(n);  // B^2
@@ -48,7 +48,7 @@ int main()
     float** c22 = create_matrix(n); // b*c*BC
     float** c23 = create_matrix(n); // b*c*CB
 
-    float** c24 = create_matrix(n); // „P„‚„p„r„p„‘ „‰„p„ƒ„„„: „ƒ„…„}„}„p „r„ƒ„u„‡ „{„€„}„„€„~„u„~„„„€„r
+    float** c24 = create_matrix(n); // summ of right side
 
     //(aA + bB + cC)^2
     coeff(A, a_coeff, c1, n);
