@@ -1,0 +1,3 @@
+﻿  Func.cpp
+F:\School\C++\AttestS march(1)\AttestS march(1)\Func.cpp(11,21): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  AttestS march(1).vcxproj -> F:\School\C++\AttestS march(1)\x64\Debug\AttestS march(1).exe
