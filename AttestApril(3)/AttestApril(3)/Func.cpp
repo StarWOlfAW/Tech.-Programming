@@ -35,7 +35,7 @@ bool equal(float** a, float** b, int n)
 {
     for (int i = 0; i < n; i++)
         for (int j = 0; j < n; j++)
-            if (abs(a[i][j] - b[i][j]) > 0.1) // „T„‰„u„„ „„€„s„‚„u„Š„~„€„ƒ„„„y float
+            if (abs(a[i][j] - b[i][j]) > 0.1) // If  float goes wrong a litle bit
                 return false;
     return true;
 }
