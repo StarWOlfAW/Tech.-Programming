@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (9.04.25.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Source.cpp
+C:\Users\k2_11\Desktop\Дрякин Евгений\9.04.25\9.04.25\Source.cpp(21,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  9.04.25.vcxproj -> C:\Users\k2_11\Desktop\Дрякин Евгений\9.04.25\x64\Debug\9.04.25Struct.exe
