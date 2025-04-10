@@ -49,4 +49,33 @@ void output_desired(int** a, int n, int m)
                 left++;
             }
         }
+    /*for (int i = m; i < m /2; i--)
+        {
+            for (int k = i; k > n-i; k--)
+                cout << a[k-1][i-1] << " ";
+        }*/
+   /* for (int i = 0; i < m /2; i++)
+    {
+         for (int k = i; k < m; k++)
+            cout << a[k][i] << " "
+        cout << endl;
+        }*/
+    /*for (int i = n-1; i >= 0; i--)
+    {
+        for (int k = n - i - 1; k < n; k++)
+            cout <<a[i][k];
+        cout << endl;
+    }*/
+    /*for (int i = n-1; i>=0; i--)
+    {
+        for (int k = 0; k <= i; k++)
+            cout << a[i][k] << " ";
+        cout << endl;
+    }*/
+   /* for (int i = n; i >n/2; k < i; k++)
+    {
+        for(int k = n-i; k <i; k++)
+            cout << a[i-1][k] << " ";
+        cout << endl;
+    }*/
 }
