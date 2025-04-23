@@ -17,7 +17,7 @@ void input_Student(Student* s);
 void output_Student_mas(Student* s, int n);
 void young_age(Student* s);
 void lowest_sum(Student* s);
-bool best(Student* s);
+bool worst(Student* s);
 
 
 
@@ -33,7 +33,7 @@ int main()
 	//young_age(a);
 	//lowest_sum(a);
 	for (int i = 0; i < n; i++)
-		if (best(&a[i]))
+		if (worst(&a[i]))
 		{
 			output_Student(&a[i]);
 			cout << endl;
@@ -103,7 +103,7 @@ void lowest_sum(Student* s)
 	cout << "Student with lowest " << endl;
 	output_Student(&s[card]);
 }
-bool best(Student* s)
+bool worst(Student* s)
 {
 	for (int g = 0; g < m; g++)
 	{
