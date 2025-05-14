@@ -78,4 +78,34 @@ void output_desired(int** a, int n, int m)
             cout << a[i-1][k] << " ";
         cout << endl;
     }*/
+
+
+    /*for (int j = 0; j < m; j++)
+{
+    cout << a[0][j] << " ";
+}
+
+
+for (int i = 1; i < n - 1; i++)
+{
+    cout << a[i][m - 1] << " ";
+}
+
+
+if (n > 1)
+{
+    for (int j = m - 1; j >= 0; j--)
+    {
+        cout << a[n - 1][j] << " ";
+    }
+}
+
+
+if (m > 1)
+{
+    for (int i = n - 2; i >= 1; i--)
+    {
+        cout << a[i][0] << " ";
+    }
+}*/
 }
