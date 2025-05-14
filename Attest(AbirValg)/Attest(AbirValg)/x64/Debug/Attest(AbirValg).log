@@ -1,0 +1,5 @@
+﻿  Source.cpp
+  Func.cpp
+F:\School\C++\Attest(AbirValg)\Attest(AbirValg)\Func.cpp(17,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  Attest(AbirValg).vcxproj -> F:\School\C++\Attest(AbirValg)\x64\Debug\Attest(AbirValg).exe
