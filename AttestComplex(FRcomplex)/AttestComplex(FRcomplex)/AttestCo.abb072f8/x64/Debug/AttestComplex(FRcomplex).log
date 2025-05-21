@@ -1,0 +1,5 @@
+﻿  Source.cpp
+  Func.cpp
+F:\School\C++\AttestComplex(FRcomplex)\AttestComplex(FRcomplex)\Source.cpp(8,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  AttestComplex(FRcomplex).vcxproj -> F:\School\C++\AttestComplex(FRcomplex)\AttestComplex(FRcomplex)\x64\Debug\AttestComplex(FRcomplex).exe
