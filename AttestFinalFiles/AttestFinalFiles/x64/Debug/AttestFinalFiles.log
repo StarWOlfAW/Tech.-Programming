@@ -1,0 +1,261 @@
+﻿  Source.cpp
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8390,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8404,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8444,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8458,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8498,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8512,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8552,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8566,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8631,28): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8658,29): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8685,28): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8712,30): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8741,45): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8752,45): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8763,47): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8774,47): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8784,43): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8795,41): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8871,48): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8882,48): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8893,44): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8943,44): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8954,44): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8965,40): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9015,44): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9026,44): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9037,40): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9087,45): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9098,45): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9109,41): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9159,50): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9170,50): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9181,46): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9343,48): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9354,48): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9365,44): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(4588,5): error C2208: _GUID: нет членов, определенных с помощью этого типа
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10358,5): error C2208: _CHANGER_ELEMENT: нет членов, определенных с помощью этого типа
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10397,5): error C2208: _CHANGER_ELEMENT: нет членов, определенных с помощью этого типа
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\shared\stralign.h(431,59): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\shared\stralign.h(434,48): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\shared\stralign.h(450,79): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\shared\stralign.h(453,48): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Source.cpp")
+  
+  Func.cpp
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8390,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8404,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8444,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8458,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8498,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8512,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8552,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8566,20): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8631,28): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8658,29): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8685,28): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8712,30): error C2059: синтаксическая ошибка: ;
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8741,45): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8752,45): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8763,47): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8774,47): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8784,43): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8795,41): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8871,48): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8882,48): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8893,44): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8943,44): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8954,44): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(8965,40): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9015,44): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9026,44): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9037,40): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9087,45): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9098,45): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9109,41): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9159,50): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9170,50): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9181,46): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9343,48): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9354,48): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(9365,44): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(4588,5): error C2208: _GUID: нет членов, определенных с помощью этого типа
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10358,5): error C2208: _CHANGER_ELEMENT: нет членов, определенных с помощью этого типа
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\um\winioctl.h(10397,5): error C2208: _CHANGER_ELEMENT: нет членов, определенных с помощью этого типа
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\shared\stralign.h(431,59): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\shared\stralign.h(434,48): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\shared\stralign.h(450,79): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+F:\Windows Kits\10\Include\10.0.22621.0\shared\stralign.h(453,48): error C2059: синтаксическая ошибка: )
+  (компиляция исходного файла "Func.cpp")
+  
+  Создание кода...
