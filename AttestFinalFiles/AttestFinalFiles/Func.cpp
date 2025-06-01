@@ -9,23 +9,23 @@ int menu()
 {
     system("cls");
     int c;
-    cout << "„B„„q„u„‚„y„„„u „‚„u„w„y„} „‚„p„q„€„„„ „„‚„€„s„‚„p„}„}„:" << endl;
-    cout << "0 - „B„„‡„€„t" << endl;
-    cout << "1 - „B„„r„€„t „r„ƒ„u„‡ „„u„‚„ƒ„€„~„p„w„u„z" << endl;
-    cout << "2 - „D„€„q„p„r„y„„„Ž „„u„‚„ƒ„€„~„p„w„p" << endl;
-    cout << "3 - „T„t„p„|„y„„„Ž „„u„‚„ƒ„€„~„p„w„p" << endl;
-    cout << "4 - „I„x„}„u„~„y„„„Ž „„u„‚„ƒ„€„~„p„w„p" << endl;
-    cout << "5 - „P„u„‚„ƒ„€„~„p„w„y „ƒ „~„p„y„q„€„|„Ž„Š„u„z „t„p„„„€„z „„€„|„…„‰„u„~„y„‘" << endl;
-    cout << "6 - „R„€„‚„„„y„‚„€„r„{„p „„€ „t„p„„„u („…„q„„r„p„~„y„u)" << endl;
-    cout << "7 - „R„€„‚„„„y„‚„€„r„{„p „„€ „t„p„„„u („r„€„x„‚„p„ƒ„„„p„~„y„u)" << endl;
-    cout << "8 - „R„€„‚„„„y„‚„€„r„{„p „„€ „y„}„u„~„y („…„q„„r„p„~„y„u)" << endl;
-    cout << "9 - „R„€„‚„„„y„‚„€„r„{„p „„€ „y„}„u„~„y („r„€„x„‚„p„ƒ„„„p„~„y„u)" << endl;
-    cout << "10 - „R„€„‚„„„y„‚„€„r„{„p „„€ „}„y„~„y„}„p„|„Ž„~„€„}„… „s„p„‚„p„~„„„… 5š" << endl;
-    cout << "11 - „R„€„‚„„„y„‚„€„r„{„p „„€ „}„p„{„ƒ„y„}„p„|„Ž„~„€„}„… „s„p„‚„p„~„„„… 5š" << endl;
-    cout << "12 - „R„€„‚„„„y„‚„€„r„{„p „„€ „q„p„x„€„r„€„z „r„u„‚„€„‘„„„~„€„ƒ„„„y" << endl;
-    cout << "13 - „R„€„‚„„„y„‚„€„r„{„p „„€ „„„u„{„…„‹„u„z „r„u„‚„€„‘„„„~„€„ƒ„„„y" << endl;
-    cout << "14 - „R„€„‚„„„y„‚„€„r„{„p „„€ „‚„u„t„{„€„ƒ„„„y" << endl;
-    cout << "„B„p„Š „r„„q„€„‚: ";
+    cout << "Choose what to do" << endl;
+    cout << "0 - exit" << endl;
+    cout << "1 - Outuput all characters cards" << endl;
+    cout << "2 - Add character card" << endl;
+    cout << "3 - Delete character card" << endl;
+    cout << "4 - Change character card" << endl;
+    cout << "5 - Characters with latest obtained date" << endl;
+    cout << "6 - Sort by date descending" << endl;
+    cout << "7 - sort by date ascending" << endl;
+    cout << "8 - Sort by name descending" << endl;
+    cout << "9 - sort by name ascending" << endl;
+    cout << "10 - Sort by minimum garanted 5*" << endl;
+    cout << "11 - sort by maximum garanted 5*" << endl;
+    cout << "12 - Sort by base possibility" << endl;
+    cout << "13 - Sort by current possibility" << endl;
+    cout << "14 - Sort by rarity" << endl;
+    cout << "Choose:  ";
     cin >> c;
     return c;
 }
@@ -34,23 +34,23 @@ void update_character(characters* a, int n)
 {
     characters dat;
     int id, i;
-    cout << "„B„r„u„t„y„„„u id „„u„‚„ƒ„€„~„p„w„p: "; cin >> id;
+    cout << "Enter character card id: "; cin >> id;
     for (i = 0; i < n; i++)
         if (a[i].id == id)
             break;
     if (i == n) {
-        cout << "„P„u„‚„ƒ„€„~„p„w „ƒ „„„p„{„y„} id „~„u „~„p„z„t„u„~!" << endl;
+        cout << "Character card with that id not found" << endl;
         return;
     }
 
-    cout << "„N„p„x„r„p„~„y„u: "; cin >> dat.name;
-    cout << "„Q„u„t„{„€„ƒ„„„Ž: "; cin >> dat.rarity;
-    cout << "„D„p„„„p „„€„|„…„‰„u„~„y„‘: "; cin >> dat.dateofget;
-    cout << "„A„p„x„€„r„p„‘ „r„u„‚„€„‘„„„~„€„ƒ„„„Ž: "; cin >> dat.base_probability;
-    cout << "„S„u„{„…„‹„p„‘ „r„u„‚„€„‘„„„~„€„ƒ„„„Ž: "; cin >> dat.current_probability;
-    cout << "„S„y„: "; cin >> dat.type;
-    cout << "„R„„u„ˆ„y„p„|„Ž„~„„z „p„„„‚„y„q„…„„: "; cin >> dat.speciality_attribute;
-    cout << "„C„p„‚„p„~„„: "; cin >> dat.garanted[0]; cin >> dat.garanted[1]; cin >> dat.garanted[2];
+    cout << "Enter name : "; cin >> dat.name;
+    cout << "Enter rarity (n*): "; cin >> dat.rarity;
+    cout << "Enter date (yyyymmdd): "; cin >> dat.dateofget;
+    cout << "enter base probability(double): "; cin >> dat.base_probability;
+    cout << "enter current probavility(double): "; cin >> dat.current_probability;
+    cout << "enter type: "; cin >> dat.type;
+    cout << "enter speciality attribute: "; cin >> dat.speciality_attribute;
+    cout << "Enter current garantee, max garantee, min garantee: "; cin >> dat.garanted[0]; cin >> dat.garanted[1]; cin >> dat.garanted[2];
     dat.id = id;
     a[i] = dat;
 
@@ -60,12 +60,12 @@ void update_character(characters* a, int n)
 void delete_character(characters* a, int& n)
 {
     int id, i;
-    cout << "„B„r„u„t„y„„„u id „„u„‚„ƒ„€„~„p„w„p „t„|„‘ „…„t„p„|„u„~„y„‘: "; cin >> id;
+    cout << "Enter character id: "; cin >> id;
     for (i = 0; i < n; i++)
         if (a[i].id == id)
             break;
     if (i == n) {
-        cout << "„P„u„‚„ƒ„€„~„p„w „ƒ „„„p„{„y„} id „~„u „~„p„z„t„u„~!" << endl;
+        cout << "Character with that id not found" << endl;
         return;
     }
 
@@ -83,14 +83,14 @@ void insert_character(characters* a, int& n)
         if (a[i].id > max_id)
             max_id = a[i].id;
 
-    cout << "„N„p„x„r„p„~„y„u: "; cin >> dat.name;
-    cout << "„Q„u„t„{„€„ƒ„„„Ž: "; cin >> dat.rarity;
-    cout << "„D„p„„„p „„€„|„…„‰„u„~„y„‘: "; cin >> dat.dateofget;
-    cout << "„A„p„x„€„r„p„‘ „r„u„‚„€„‘„„„~„€„ƒ„„„Ž: "; cin >> dat.base_probability;
-    cout << "„S„u„{„…„‹„p„‘ „r„u„‚„€„‘„„„~„€„ƒ„„„Ž: "; cin >> dat.current_probability;
-    cout << "„S„y„: "; cin >> dat.type;
-    cout << "„R„„u„ˆ„y„p„|„Ž„~„„z „p„„„‚„y„q„…„„: "; cin >> dat.speciality_attribute;
-    cout << "„C„p„‚„p„~„„: "; cin >> dat.garanted[0]; cin >> dat.garanted[1]; cin >> dat.garanted[2];
+    cout << "Enter name: "; cin >> dat.name;
+    cout << "Enter rarity (n*): "; cin >> dat.rarity;
+    cout << "Enter date (yyyymmdd): "; cin >> dat.dateofget;
+    cout << "enter base probability(double): "; cin >> dat.base_probability;
+    cout << "enter current probavility(double): "; cin >> dat.current_probability;
+    cout << "enter type: "; cin >> dat.type;
+    cout << "enter speciality attribute: "; cin >> dat.speciality_attribute;
+    cout << "Enter current garantee, max garantee, min garantee: "; cin >> dat.garanted[0]; cin >> dat.garanted[1]; cin >> dat.garanted[2];
     dat.id = max_id + 1;
     a[n++] = dat;
 
