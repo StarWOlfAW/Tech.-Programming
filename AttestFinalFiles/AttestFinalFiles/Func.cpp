@@ -25,6 +25,8 @@ int menu()
     cout << "12 - Sort by base possibility" << endl;
     cout << "13 - Sort by current possibility" << endl;
     cout << "14 - Sort by rarity" << endl;
+    cout << "15 - Sort by type" << endl;
+    cout << "16 - Sort by speciality" << endl;
     cout << "Choose:  ";
     cin >> c;
     return c;
@@ -320,19 +322,45 @@ void order_by_current_probability(characters* a, int n)
         }
     }
 }
+void order_by_speciality(characters* a, int n)
+{
+    for (int i = 0; i < n - 1; i++) {
+        int min_idx = i;
+        for (int j = i + 1; j < n; j++) {
+            if (strcmp(a[j].speciality_attribute, a[min_idx].speciality_attribute) < 0) {
+                min_idx = j;
+            }
+        }
+        if (min_idx != i) {
+            swap(a[i], a[min_idx]);
+        }
+    }
+}
+
+void order_by_type(characters* a, int n)
+{
+    for (int i = 0; i < n - 1; i++) {
+        int min_idx = i;
+        for (int j = i + 1; j < n; j++) {
+            if (strcmp(a[j].type, a[min_idx].type) < 0) {
+                min_idx = j;
+            }
+        }
+        if (min_idx != i) {
+            swap(a[i], a[min_idx]);
+        }
+    }
+}
 
 void order_by_rarity(characters* a, int n)
 {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
-
-            int rarity_j = atoi(a[j].rarity);
-            int rarity_j1 = atoi(a[j + 1].rarity);
+            int rarity_j = a[j].rarity[0] - '0';
+            int rarity_j1 = a[j + 1].rarity[0] - '0';
 
             if (rarity_j < rarity_j1) {
                 swap(a[j], a[j + 1]);
             }
         }
     }
-}
-// test
