@@ -72,6 +72,16 @@ int main()
             from_mas_to_file(a, n, "f:\\School\\files\\file_output_rarity.txt");
             cout << "Sort by rarity done" << endl;
             break;
+        case 15:
+            order_by_speciality(a, n);
+            from_mas_to_file(a, n, "d:\\file_output_speciality.txt");
+            cout << "Sort by speciality done" << endl;
+            break;
+        case 16:
+            order_by_type(a,n);
+            from_mas_to_file(a, n, "d:\\file_output_type.txt");
+            cout << "Sort by type done" << endl;
+            break;
         case 0:
             delete[] a;
             return 0;
