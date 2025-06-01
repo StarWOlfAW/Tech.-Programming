@@ -29,5 +29,7 @@ void order_by_max_garanted_5star(characters* a, int n);
 void order_by_base_probability(characters* a, int n);
 void order_by_current_probability(characters* a, int n);
 void order_by_rarity(characters* a, int n);
+void order_by_speciality(characters* a, int n);
+void order_by_type(characters* a, int n);
 int menu();
 #endif
