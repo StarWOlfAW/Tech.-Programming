@@ -25,8 +25,8 @@ int menu()
     cout << "12 - Sort by base possibility" << endl;
     cout << "13 - Sort by current possibility" << endl;
     cout << "14 - Sort by rarity" << endl;
-    cout << "15 - Sort by type" << endl;
-    cout << "16 - Sort by speciality" << endl;
+    cout << "15 - Sort by speciality" << endl;
+    cout << "16 - Sort by type" << endl;
     cout << "Choose:  ";
     cin >> c;
     return c;
