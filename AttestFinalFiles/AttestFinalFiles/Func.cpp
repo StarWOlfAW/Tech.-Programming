@@ -9,23 +9,23 @@ int menu()
 {
     system("cls");
     int c;
-    cout << "„B„„q„u„‚„y„„„u „‚„u„w„y„} „‚„p„q„€„„„ „„‚„€„s„‚„p„}„}„:" << endl;
-    cout << "0 - „B„„‡„€„t" << endl;
-    cout << "1 - „B„„r„€„t „r„ƒ„u„‡ „„u„‚„ƒ„€„~„p„w„u„z" << endl;
-    cout << "2 - „D„€„q„p„r„y„„„ „„u„‚„ƒ„€„~„p„w„p" << endl;
-    cout << "3 - „T„t„p„|„y„„„ „„u„‚„ƒ„€„~„p„w„p" << endl;
-    cout << "4 - „I„x„}„u„~„y„„„ „„u„‚„ƒ„€„~„p„w„p" << endl;
-    cout << "5 - „P„u„‚„ƒ„€„~„p„w„y „ƒ „~„p„y„q„€„|„„Š„u„z „t„p„„„€„z „„€„|„…„‰„u„~„y„‘" << endl;
-    cout << "6 - „R„€„‚„„„y„‚„€„r„{„p „„€ „t„p„„„u („…„q„„r„p„~„y„u)" << endl;
-    cout << "7 - „R„€„‚„„„y„‚„€„r„{„p „„€ „t„p„„„u („r„€„x„‚„p„ƒ„„„p„~„y„u)" << endl;
-    cout << "8 - „R„€„‚„„„y„‚„€„r„{„p „„€ „y„}„u„~„y („…„q„„r„p„~„y„u)" << endl;
-    cout << "9 - „R„€„‚„„„y„‚„€„r„{„p „„€ „y„}„u„~„y („r„€„x„‚„p„ƒ„„„p„~„y„u)" << endl;
-    cout << "10 - „R„€„‚„„„y„‚„€„r„{„p „„€ „}„y„~„y„}„p„|„„~„€„}„… „s„p„‚„p„~„„„… 5š" << endl;
-    cout << "11 - „R„€„‚„„„y„‚„€„r„{„p „„€ „}„p„{„ƒ„y„}„p„|„„~„€„}„… „s„p„‚„p„~„„„… 5š" << endl;
-    cout << "12 - „R„€„‚„„„y„‚„€„r„{„p „„€ „q„p„x„€„r„€„z „r„u„‚„€„‘„„„~„€„ƒ„„„y" << endl;
-    cout << "13 - „R„€„‚„„„y„‚„€„r„{„p „„€ „„„u„{„…„‹„u„z „r„u„‚„€„‘„„„~„€„ƒ„„„y" << endl;
-    cout << "14 - „R„€„‚„„„y„‚„€„r„{„p „„€ „‚„u„t„{„€„ƒ„„„y" << endl;
-    cout << "„B„p„Š „r„„q„€„‚: ";
+    cout << "â€Bâ€Ââ€qâ€uâ€â€šâ€yâ€â€â€u â€â€šâ€uâ€wâ€yâ€} â€â€šâ€pâ€qâ€â‚¬â€â€â€Â â€Ââ€â€šâ€â‚¬â€sâ€â€šâ€pâ€}â€}â€Â:" << endl;
+    cout << "0 - â€Bâ€Ââ€â€¡â€â‚¬â€t" << endl;
+    cout << "1 - â€Bâ€Ââ€râ€â‚¬â€t â€râ€Æ’â€uâ€â€¡ â€Ââ€uâ€â€šâ€Æ’â€â‚¬â€~â€pâ€wâ€uâ€z" << endl;
+    cout << "2 - â€Dâ€â‚¬â€qâ€pâ€râ€yâ€â€â€Å½ â€Ââ€uâ€â€šâ€Æ’â€â‚¬â€~â€pâ€wâ€p" << endl;
+    cout << "3 - â€Tâ€tâ€pâ€|â€yâ€â€â€Å½ â€Ââ€uâ€â€šâ€Æ’â€â‚¬â€~â€pâ€wâ€p" << endl;
+    cout << "4 - â€Iâ€xâ€}â€uâ€~â€yâ€â€â€Å½ â€Ââ€uâ€â€šâ€Æ’â€â‚¬â€~â€pâ€wâ€p" << endl;
+    cout << "5 - â€Pâ€uâ€â€šâ€Æ’â€â‚¬â€~â€pâ€wâ€y â€Æ’ â€~â€pâ€yâ€qâ€â‚¬â€|â€Å½â€Å â€uâ€z â€tâ€pâ€â€â€â‚¬â€z â€Ââ€â‚¬â€|â€â€¦â€â€°â€uâ€~â€yâ€â€˜" << endl;
+    cout << "6 - â€Râ€â‚¬â€â€šâ€â€â€yâ€â€šâ€â‚¬â€râ€{â€p â€Ââ€â‚¬ â€tâ€pâ€â€â€u (â€â€¦â€qâ€Ââ€râ€pâ€~â€yâ€u)" << endl;
+    cout << "7 - â€Râ€â‚¬â€â€šâ€â€â€yâ€â€šâ€â‚¬â€râ€{â€p â€Ââ€â‚¬ â€tâ€pâ€â€â€u (â€râ€â‚¬â€xâ€â€šâ€pâ€Æ’â€â€â€pâ€~â€yâ€u)" << endl;
+    cout << "8 - â€Râ€â‚¬â€â€šâ€â€â€yâ€â€šâ€â‚¬â€râ€{â€p â€Ââ€â‚¬ â€yâ€}â€uâ€~â€y (â€â€¦â€qâ€Ââ€râ€pâ€~â€yâ€u)" << endl;
+    cout << "9 - â€Râ€â‚¬â€â€šâ€â€â€yâ€â€šâ€â‚¬â€râ€{â€p â€Ââ€â‚¬ â€yâ€}â€uâ€~â€y (â€râ€â‚¬â€xâ€â€šâ€pâ€Æ’â€â€â€pâ€~â€yâ€u)" << endl;
+    cout << "10 - â€Râ€â‚¬â€â€šâ€â€â€yâ€â€šâ€â‚¬â€râ€{â€p â€Ââ€â‚¬ â€}â€yâ€~â€yâ€}â€pâ€|â€Å½â€~â€â‚¬â€}â€â€¦ â€sâ€pâ€â€šâ€pâ€~â€â€â€â€¦ 5ÂÅ¡" << endl;
+    cout << "11 - â€Râ€â‚¬â€â€šâ€â€â€yâ€â€šâ€â‚¬â€râ€{â€p â€Ââ€â‚¬ â€}â€pâ€{â€Æ’â€yâ€}â€pâ€|â€Å½â€~â€â‚¬â€}â€â€¦ â€sâ€pâ€â€šâ€pâ€~â€â€â€â€¦ 5ÂÅ¡" << endl;
+    cout << "12 - â€Râ€â‚¬â€â€šâ€â€â€yâ€â€šâ€â‚¬â€râ€{â€p â€Ââ€â‚¬ â€qâ€pâ€xâ€â‚¬â€râ€â‚¬â€z â€râ€uâ€â€šâ€â‚¬â€â€˜â€â€â€~â€â‚¬â€Æ’â€â€â€y" << endl;
+    cout << "13 - â€Râ€â‚¬â€â€šâ€â€â€yâ€â€šâ€â‚¬â€râ€{â€p â€Ââ€â‚¬ â€â€â€uâ€{â€â€¦â€â€¹â€uâ€z â€râ€uâ€â€šâ€â‚¬â€â€˜â€â€â€~â€â‚¬â€Æ’â€â€â€y" << endl;
+    cout << "14 - â€Râ€â‚¬â€â€šâ€â€â€yâ€â€šâ€â‚¬â€râ€{â€p â€Ââ€â‚¬ â€â€šâ€uâ€tâ€{â€â‚¬â€Æ’â€â€â€y" << endl;
+    cout << "â€Bâ€pâ€Å  â€râ€Ââ€qâ€â‚¬â€â€š: ";
     cin >> c;
     return c;
 }
@@ -34,23 +34,23 @@ void update_character(characters* a, int n)
 {
     characters dat;
     int id, i;
-    cout << "„B„r„u„t„y„„„u id „„u„‚„ƒ„€„~„p„w„p: "; cin >> id;
+    cout << "â€Bâ€râ€uâ€tâ€yâ€â€â€u id â€Ââ€uâ€â€šâ€Æ’â€â‚¬â€~â€pâ€wâ€p: "; cin >> id;
     for (i = 0; i < n; i++)
         if (a[i].id == id)
             break;
     if (i == n) {
-        cout << "„P„u„‚„ƒ„€„~„p„w „ƒ „„„p„{„y„} id „~„u „~„p„z„t„u„~!" << endl;
+        cout << "â€Pâ€uâ€â€šâ€Æ’â€â‚¬â€~â€pâ€w â€Æ’ â€â€â€pâ€{â€yâ€} id â€~â€u â€~â€pâ€zâ€tâ€uâ€~!" << endl;
         return;
     }
 
-    cout << "„N„p„x„r„p„~„y„u: "; cin >> dat.name;
-    cout << "„Q„u„t„{„€„ƒ„„„: "; cin >> dat.rarity;
-    cout << "„D„p„„„p „„€„|„…„‰„u„~„y„‘: "; cin >> dat.dateofget;
-    cout << "„A„p„x„€„r„p„‘ „r„u„‚„€„‘„„„~„€„ƒ„„„: "; cin >> dat.base_probability;
-    cout << "„S„u„{„…„‹„p„‘ „r„u„‚„€„‘„„„~„€„ƒ„„„: "; cin >> dat.current_probability;
-    cout << "„S„y„: "; cin >> dat.type;
-    cout << "„R„„u„ˆ„y„p„|„„~„„z „p„„„‚„y„q„…„„: "; cin >> dat.speciality_attribute;
-    cout << "„C„p„‚„p„~„„: "; cin >> dat.garanted[0]; cin >> dat.garanted[1]; cin >> dat.garanted[2];
+    cout << "â€Nâ€pâ€xâ€râ€pâ€~â€yâ€u: "; cin >> dat.name;
+    cout << "â€Qâ€uâ€tâ€{â€â‚¬â€Æ’â€â€â€Å½: "; cin >> dat.rarity;
+    cout << "â€Dâ€pâ€â€â€p â€Ââ€â‚¬â€|â€â€¦â€â€°â€uâ€~â€yâ€â€˜: "; cin >> dat.dateofget;
+    cout << "â€Aâ€pâ€xâ€â‚¬â€râ€pâ€â€˜ â€râ€uâ€â€šâ€â‚¬â€â€˜â€â€â€~â€â‚¬â€Æ’â€â€â€Å½: "; cin >> dat.base_probability;
+    cout << "â€Sâ€uâ€{â€â€¦â€â€¹â€pâ€â€˜ â€râ€uâ€â€šâ€â‚¬â€â€˜â€â€â€~â€â‚¬â€Æ’â€â€â€Å½: "; cin >> dat.current_probability;
+    cout << "â€Sâ€yâ€Â: "; cin >> dat.type;
+    cout << "â€Râ€Ââ€uâ€Ë†â€yâ€pâ€|â€Å½â€~â€Ââ€z â€pâ€â€â€â€šâ€yâ€qâ€â€¦â€â€: "; cin >> dat.speciality_attribute;
+    cout << "â€Câ€pâ€â€šâ€pâ€~â€â€: "; cin >> dat.garanted[0]; cin >> dat.garanted[1]; cin >> dat.garanted[2];
     dat.id = id;
     a[i] = dat;
 
@@ -60,12 +60,12 @@ void update_character(characters* a, int n)
 void delete_character(characters* a, int& n)
 {
     int id, i;
-    cout << "„B„r„u„t„y„„„u id „„u„‚„ƒ„€„~„p„w„p „t„|„‘ „…„t„p„|„u„~„y„‘: "; cin >> id;
+    cout << "â€Bâ€râ€uâ€tâ€yâ€â€â€u id â€Ââ€uâ€â€šâ€Æ’â€â‚¬â€~â€pâ€wâ€p â€tâ€|â€â€˜ â€â€¦â€tâ€pâ€|â€uâ€~â€yâ€â€˜: "; cin >> id;
     for (i = 0; i < n; i++)
         if (a[i].id == id)
             break;
     if (i == n) {
-        cout << "„P„u„‚„ƒ„€„~„p„w „ƒ „„„p„{„y„} id „~„u „~„p„z„t„u„~!" << endl;
+        cout << "â€Pâ€uâ€â€šâ€Æ’â€â‚¬â€~â€pâ€w â€Æ’ â€â€â€pâ€{â€yâ€} id â€~â€u â€~â€pâ€zâ€tâ€uâ€~!" << endl;
         return;
     }
 
@@ -83,14 +83,14 @@ void insert_character(characters* a, int& n)
         if (a[i].id > max_id)
             max_id = a[i].id;
 
-    cout << "„N„p„x„r„p„~„y„u: "; cin >> dat.name;
-    cout << "„Q„u„t„{„€„ƒ„„„: "; cin >> dat.rarity;
-    cout << "„D„p„„„p „„€„|„…„‰„u„~„y„‘: "; cin >> dat.dateofget;
-    cout << "„A„p„x„€„r„p„‘ „r„u„‚„€„‘„„„~„€„ƒ„„„: "; cin >> dat.base_probability;
-    cout << "„S„u„{„…„‹„p„‘ „r„u„‚„€„‘„„„~„€„ƒ„„„: "; cin >> dat.current_probability;
-    cout << "„S„y„: "; cin >> dat.type;
-    cout << "„R„„u„ˆ„y„p„|„„~„„z „p„„„‚„y„q„…„„: "; cin >> dat.speciality_attribute;
-    cout << "„C„p„‚„p„~„„: "; cin >> dat.garanted[0]; cin >> dat.garanted[1]; cin >> dat.garanted[2];
+    cout << "â€Nâ€pâ€xâ€râ€pâ€~â€yâ€u: "; cin >> dat.name;
+    cout << "â€Qâ€uâ€tâ€{â€â‚¬â€Æ’â€â€â€Å½: "; cin >> dat.rarity;
+    cout << "â€Dâ€pâ€â€â€p â€Ââ€â‚¬â€|â€â€¦â€â€°â€uâ€~â€yâ€â€˜: "; cin >> dat.dateofget;
+    cout << "â€Aâ€pâ€xâ€â‚¬â€râ€pâ€â€˜ â€râ€uâ€â€šâ€â‚¬â€â€˜â€â€â€~â€â‚¬â€Æ’â€â€â€Å½: "; cin >> dat.base_probability;
+    cout << "â€Sâ€uâ€{â€â€¦â€â€¹â€pâ€â€˜ â€râ€uâ€â€šâ€â‚¬â€â€˜â€â€â€~â€â‚¬â€Æ’â€â€â€Å½: "; cin >> dat.current_probability;
+    cout << "â€Sâ€yâ€Â: "; cin >> dat.type;
+    cout << "â€Râ€Ââ€uâ€Ë†â€yâ€pâ€|â€Å½â€~â€Ââ€z â€pâ€â€â€â€šâ€yâ€qâ€â€¦â€â€: "; cin >> dat.speciality_attribute;
+    cout << "â€Câ€pâ€â€šâ€pâ€~â€â€: "; cin >> dat.garanted[0]; cin >> dat.garanted[1]; cin >> dat.garanted[2];
     dat.id = max_id + 1;
     a[n++] = dat;
 
@@ -335,3 +335,4 @@ void order_by_rarity(characters* a, int n)
         }
     }
 }
+// test
